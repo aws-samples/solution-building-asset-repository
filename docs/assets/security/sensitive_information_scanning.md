@@ -1,0 +1,3 @@
+This Guidance demonstrates how customer applications can scan artifacts for Personally Identifiable Information (PII), financial information or credentials, and other sensitive information with Amazon Macie.
+
+Click [here](https://aws.amazon.com/solutions/guidance/sensitive-information-scanning-with-amazon-macie-on-aws/?did=sl_card&trk=sl_card) to access the library and start designing your solution.

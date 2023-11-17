@@ -1,0 +1,4 @@
+## multiuser environment for computationally intensive workflows, such as Computer-Aided Engineering (CAE)
+The Scale-Out Computing on AWS solution helps customers deploy and operate a multiuser environment for computationally intensive workflows, such as computer-aided engineering (CAE). The solution features a large selection of compute resources, a fast network backbone, unlimited storage, and budget and cost management directly integrated within AWS.  
+
+Click [here](https://aws.amazon.com/solutions/implementations/scale-out-computing-on-aws/?did=sl_card&trk=sl_card) to access the library and start designing your solution.

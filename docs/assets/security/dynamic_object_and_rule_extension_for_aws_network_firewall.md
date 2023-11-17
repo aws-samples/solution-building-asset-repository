@@ -1,0 +1,3 @@
+The Dynamic Object and Rule Extensions for AWS Network Firewall solution provides a mechanism to specify elastic and dynamic cloud resources as objects that can be easily referenced within AWS Network Firewall rules. The solution automatically synchronizes such rules to the current state of the referenced AWS resources, as they are scaled in or out, and updated. 
+
+Click [here](https://aws.amazon.com/solutions/implementations/dynamic-object-and-rule-extensions-aws-network-firewall/?did=sl_card&trk=sl_card) to access the library and start designing your solution.

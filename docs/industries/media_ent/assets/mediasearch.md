@@ -1,0 +1,6 @@
+# MediaSearch
+*This asset makes your audio and video files searchable using Amazon Transcribe and Amazon Kendra*
+
+This asset includes a blogpost and GitHub repository for a new open-source solution, MediaSearch, built to make your media files searchable, and consumable in search results. It uses Amazon Transcribe to convert media [audio tracks to text](https://aws.amazon.com/transcribe/), and Amazon Kendra to provide [intelligent search](https://aws.amazon.com/kendra/). Your users can find the content they’re looking for, even when it’s embedded in the sound track of your audio or video files. The solution also provides an enhanced Amazon Kendra query application that lets users play the relevant section of original media files or YouTube video, directly from the search results page.
+
+Read a blogpost that guides the implementation of this asset [here](https://aws.amazon.com/blogs/machine-learning/make-your-audio-and-video-files-searchable-using-amazon-transcribe-and-amazon-kendra/) and then clone the associated repository [here](https://github.com/aws-samples/amazon-kinesis-video-streams-media-interface#introduction)

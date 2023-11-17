@@ -1,0 +1,5 @@
+# Media & Entertainment
+Media and entertainment customers face industry-wide transformation, with companies reinventing how they create content, optimize media supply chains, and compete for audience attention across streaming, broadcast, and direct-to-consumer platforms. AWS aligns the most purpose-built media and entertainment capabilities of any cloud against six solution areas to help customers transform the industry: Content Production; Media Supply Chain & Archive; Broadcast; Direct-to-Consumer & Streaming; Data Science & Analytics; and Monetization. With AWS, you can select the right tools and partners for your workloads to accelerate production launches, and see faster time to value.
+
+
+<a href="https://aws.amazon.com/solutions/media-entertainment/" target="_blank">Explore Media & Entertainment solutions in the AWS Solutions Library</a>

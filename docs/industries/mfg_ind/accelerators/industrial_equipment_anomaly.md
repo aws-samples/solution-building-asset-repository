@@ -1,0 +1,5 @@
+## Anomaly Detection on Industrial Equipment using Audio Signals
+
+Industrial companies have been collecting a massive amount of time series data about their operating processes, manufacturing production lines, industrial equipment... They sometime store years of data in historian systems. Whereas they are looking to prevent equipment breakdown that would stop a production line, avoid catastrophic failures in a power generation facility or improving their end product quality by adjusting their process parameters, having the ability to process time series data is a challenge that modern cloud technologies are up to. In this post, we are going to focus on preventing machine breakdown from happening.
+
+Click [here](https://github.com/aws-samples/sound-anomaly-detection-for-manufacturing#performing-anomaly-detection-on-industrial-equipment-using-audio-signals) to access the library and start designing your solution.

@@ -1,0 +1,19 @@
+table.tableblock .title,
+.imageblock .title {
+  color: var(--ASCIIDOC-TITLE-color);
+  font-family: var(--MAIN-TITLES-TEXT-font);
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+table p {
+  margin: 0;
+}
+
+.imageblock > .content > img {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+}

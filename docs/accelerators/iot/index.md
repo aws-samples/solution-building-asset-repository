@@ -1,0 +1,5 @@
+# IoT Accelerators
+
+IoT Accelerators are building blocks for IoT-specific solutions. Builders can use them as a starting point for building a solution or add them to an existing solution as a means of optimization. 
+
+As accelerators are added to the Solution Building Asset Repository, they will appear here with documentation, examples, and tutorials.

@@ -1,0 +1,3 @@
+This Guidance helps you safeguard and protect your cloud environment by monitoring the security posture of running containers. As a security best practice, you should scan container images for security vulnerabilities, such as common vulnerability exposures (CVEs), before deploying them on container orchestration platforms. This Guidance helps you detect vulnerabilities, such as containers that were initially deployed without proper scanning or containers using expired container images. You can then configure customized actions against such findings to remediate issues.
+
+Click [here](https://aws.amazon.com/solutions/guidance/container-runtime-security-with-amazon-inspector/?did=sl_card&trk=sl_card) to access the library and start designing your solution. 

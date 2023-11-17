@@ -1,0 +1,5 @@
+The Automated Forensics Orchestrator for Amazon EC2 solution deploys a mechanism that uses AWS services to orchestrate and automate key digital forensics processes and activities for Amazon EC2 instances in the event of a potential security issue being detected.
+
+It helps to establish an automated workflow across data acquisition from disk and memory,  instance isolation, and invocation of third party forensics investigation, analysis, and reporting tools that can be easily integrated with the solution. The solution is intended to be used by organizations deploying and running workloads on EC2 instances, specifically aimed at helping their security operations and response functions.
+
+Click [here](https://aws.amazon.com/solutions/implementations/automated-forensics-orchestrator-for-amazon-ec2/?did=sl_card&trk=sl_card) to access the library and start designing your solution.

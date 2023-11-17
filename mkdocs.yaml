@@ -1,0 +1,234 @@
+site_name: Solution Building Asset Repository
+repo_name: "aws-samples/solution-building-asset-repository"
+repo_url: "https://github.com/aws-samples/solution-building-asset-repository"
+docs_dir: "docs"
+theme:
+  logo: resources/images/AWS_logo_RGB_WHT.png
+  font:
+    text: Open Sans
+  name: material
+  custom_dir: overrides
+  palette:
+    primary: custom
+  features:
+    - tabs
+    # - navigation.sections
+    - navigation.indexes
+  icon:
+  admonition:
+    success: fontawesome/solid/check
+nav:
+  - Home: 'index.md'
+  - Getting Started:
+    - Getting Started: 'getting_started/index.md'
+  - Horizontal Technologies:
+    - Assets:
+      - Assets: 'assets/index.md'
+      - Code & Frameworks:
+        - Code & Frameworks: 'assets/code-frameworks/code-frameworks.md'
+        - UX Frameworks:
+          - Cloudscape Design System: 'assets/code-frameworks/cloudscape.md'
+          - Streamlit: 'assets/code-frameworks/streamlit.md'
+      - GenAI: 
+        - GenAI: 'assets/genai/index.md'
+        - Deployment:
+          - LLM and Chatbot: 'assets/genai/deployment/deployllm.md'    
+      - IoT: 
+        - IoT: 'assets/iot/index.md'
+        - Multi-tenancy Provisioning: 'assets/iot/device_provisioning_mt.md'
+        - Real-Time Dashboard: 'assets/iot/real-time_dashboard.md' 
+        - Device Provisioning: 'assets/iot/device_provisioning.md' 
+      - Security:
+        - AWS Incident Response Playbook: 'assets/security/aws_incident_response_playbook.md'
+        - Automated Security Response on AWS: 'assets/security/automated_security_response.md'
+        - Automated Forensics Orchestrator for Amazon EC2: 'assets/security/automated_forensic_orchestrator.md'
+        - Security Automations for AWS WAF: 'assets/security/security_automation_for_aws_waf.md'
+        - Dynamic Object and Rule Extensions for AWS Network Firewall: 'assets/security/dynamic_object_and_rule_extension_for_aws_network_firewall.md'
+        - Guidance for Container Runtime Security with Amazon Inspector: 'assets/security/container_runtime_security.md'
+        - Guidance for Sensitive Information Scanning with Amazon Macie on AWS: 'assets/security/sensitive_information_scanning.md'
+
+    - Accelerators:
+      - Accelerators: 'accelerators/index.md'
+      - Proofs-Of-Concept: 'accelerators/poc.md'
+      - Starter Projects:
+        - WebUI Starter Kit: 'accelerators/starter_projects/webui_starter_kit.md'
+        - IoT App Kit: 'accelerators/starter_projects/iot_app_kit.md'
+      - GenAI: 
+        - GenAI: 'accelerators/genai/index.md'
+        - BedRock & LangChain: 'accelerators/genai/building_with_bedrock_langchain.md'
+        - BedRock AI Karaoke: 'accelerators/genai/bedrock_karaoke.md'
+        - RAG using BedRock: 'accelerators/genai/rag_using_bedrock.md'
+        - BedRock Prompt Engineering: 'accelerators/genai/bedrock_prompt_examples.md'
+        - Q&A with LLM and RAG: 'accelerators/genai/qa_with_llm_and_rag.md'
+        - Sagemaker Protein Folding Workflows: 'accelerators/genai/sagemaker_protein_folding_workflows.md'
+      - IoT: 
+        - IoT: 'accelerators/iot/index.md'
+        - Energy Monitoring: 'accelerators/iot/energy_digitaltwins.md'
+        - Reference Architectures:
+            - IoT Reference Architectures: 'accelerators/iot/reference_architecture/IoT-ref-arch.md'
+      - Security:
+        - Edge Accelerator: 'accelerators/security/edge_accelerator.md'
+        - Secure Environment Accelerator: 'accelerators/security/secure_enviornment_accelerator.md'
+        - SIEM on OpenSearch: 'accelerators/security/siem_on_opensearch.md'
+
+    - Blueprints:
+      - Overview: 'blueprints/index.md'
+      - SBG Blueprints:
+        - SBG Blueprints: 'blueprints/psf-index.md'
+        - Databus:
+            - Solution Overview: 'blueprints/databus/overview.md'
+            - Prerequisites: 'blueprints/databus/prerequisites.md'
+            - POC Cost: 'blueprints/databus/cost.md'
+            - Supported Regions: 'blueprints/databus/supported-regions.md'
+            - Conclusion: 'blueprints/databus/conclusion.md'
+            - Implementation:
+              - Point to Point: 'blueprints/databus/p2p.md'
+              - Fanout: 'blueprints/databus/fanout.md'
+        - Scalability:
+          - Scalability: 'blueprints/scalability/index.md'
+          - Application Scaling: 'blueprints/scalability/application-scaling.md'
+          - Database Scaling: 'blueprints/scalability/database-scaling.md'
+          - Infrastructure Scaling: 'blueprints/scalability/infrastructure-scaling.md'
+          # - IoT Scaling: 'blueprints/scalability/IoT-scaling.md'
+        - High Availability: 'blueprints/mvp.md'
+        - Security: 'blueprints/mvp.md'
+        - Resiliency: 'blueprints/mvp.md'
+        - Sustainability:
+          - Sustainability: 'blueprints/mvp.md'
+          - Guidance: 'blueprints/sustainability/guidance.md'
+      - SAT Blueprints:
+        - Data & AI Blueprints: 'blueprints/data_ai/data_ai_blueprints.md'
+        - EKS Blueprints: 'blueprints/eks/eks_blueprints.md'
+    - Reference Architectures:
+      - Reference Architectures: 'reference_architectures/index.md'
+      # - Energy & Utilities: 'reference_architectures/eu.md'
+      # - Healthcare & Life Sciences: 'reference_architectures/hcls.md'
+      # - Manufacturing: 'reference_architectures/manufacturing.md'
+      # - Telecommunications: 'reference_architectures/telecom.md'
+    - Well Architected Framework: 
+      - Lens: 'war/index.md'
+  - Industries:
+    - Technical Assets for Industries: 'industries/index.md'
+    # - Automotive Section
+    - Automotive:
+      - Automotive: 'industries/automotive/index.md'
+      - Assets:
+        - EWAOL AMI: 'industries/automotive/assets/ewaol.md'
+        - ECU to EC2: 'industries/automotive/assets/ecu2ec2.md'
+      - Accelerators:
+        - Kinesis for DMS/OMS: 'industries/automotive/accelerators/kvsvc.md'
+        - EV Battery Monitoring: 'industries/automotive/accelerators/evbm.md'
+        - Autonomous Driving Data Framework: 'industries/automotive/accelerators/addf.md'
+      - Reference Architectures:
+        - Connected Mobility: 'industries/automotive/reference_architectures/cmp.md'
+    # - Consumer Packaged Goods: 'industries/cpg.md'
+    - Energy & Utilities:
+      - Energy & Utilities: 'industries/eu/index.md'
+      - Assets:
+        - AWS For Energy: 'industries/eu/assets/aws_for_energy_ebook.md'
+        - New Energy Playbook: 'industries/eu/assets/new_energy_playbook.md'
+      - Accelerators: 
+        - Energy Monitoring: 'industries/eu/accelerators/energy_monitoring.md'
+        - Forecast Electricity Demand: 'industries/eu/accelerators/forecast_electricity_demand.md'
+      - Reference Architectures:
+        - Reference Architectures: 'reference_architectures/eu/index.md'
+        - Data Lake Architecture for Renewable Energy: 'reference_architectures/data_lake_renewable_energy.md'
+        - Predictive Maintanence for Oil & Gas: 'reference_architectures/oil_and_gas_ml_predictive_maintenence.md'
+    # - Global Financial Services: 'industries/gfs.md'
+    - Healthcare & Life Sciences:
+      - Healthcare & Life Sciences: 'industries/hcls/index.md'
+      - Assets:
+        - Medical Transcription: 'industries/hcls/assets/medicaltranscript.md'
+        - Multilingual Medical Analysis: 'industries/hcls/assets/analyze_medical_notes.md'
+      - Accelerators:
+        - HCLS AI/ML Workshop: 'industries/hcls/accelerators/hcls_notebook.md'
+        - FHIR on AWS: 'industries/hcls/accelerators/fhir_hl7v2.md'
+        - Data Analysis with AWS Health: 'industries/hcls/accelerators/multimodel-analytics-health.md'
+      - Reference Architectures: 'reference_architectures/hcls.md'
+    - Manufacturing & Industrial:
+      - Manufacturing & Industrial: 'industries/mfg_ind/index.md'
+      - Assets:
+        - Connected Products: 'industries/mfg_ind/assets/guidance_connected_products.md'
+        - OT Assets Data Ingestion: 'industries/mfg_ind/assets/ot_assets_data_ingestion.md'
+      - Accelerators:
+        - Industrial Asset Monitoring: 'industries/mfg_ind/accelerators/industrial_asset_monitoring.md'
+        - Industrial Equipment Anomaly: 'industries/mfg_ind/accelerators/industrial_equipment_anomaly.md'
+        - Manufacturing Defects Detection: 'industries/mfg_ind/accelerators/manufacturing_defects_detection.md'
+        - Scale Out Computing: 'industries/mfg_ind/assets/scale_out_computing.md'
+      - Reference Architectures:
+        - Reference Architectures: 'reference_architectures/manufacturing.md'
+        - Industrial Predictive Maintenance: 'industries/mfg_ind/reference_architectures/industrial_predictive_maintenance.md'
+        - Industrial Workloads Anomaly: 'industries/mfg_ind/reference_architectures/industrial_workloads_anomaly_detection.md'
+        - Manufacturing On AWS: 'industries/mfg_ind/reference_architectures/manufacturing_on_aws.md'
+    - Media & Entertainment:
+      - Media & Entertainment: 'industries/media_ent/index.md'
+      - Assets:
+        - Live streaming AWS CloudFormation template: 'industries/media_ent/assets/livestreaming-cfn.md'
+        - MediaSearch: 'industries/media_ent/assets/mediasearch.md'
+        - Media Intelligence: 'industries/media_ent/assets/media-intelligence.md'
+      - Accelerators:
+        - Live chat sample app: 'industries/media_ent/accelerators/livechat-sample-app.md'
+        - MediaLive Channel Orchestrator: 'industries/media_ent/accelerators/medialive-channel-orchestrator.md'
+        - Visual Narrations: 'industries/media_ent/accelerators/visual-narrations.md'
+      - Reference Architectures:
+        - AWS CDK MediaServices Reference Architectures: 'reference_architectures/media_ent/media-cdk-ref-arch.md'
+    - Telecommunications:
+      - Telecommunications: 'industries/telecom/index.md'
+      - Assets:
+        - Telco Workload Placement and Configuration: 'industries/telecom/assets/telco-workload.md'
+        - 5G Edge Discovery with AWS Wavelength: 'industries/telecom/assets/5g-edge-discovery.md'
+      - Reference Architectures: 
+        - Reference Architectures: 'reference_architectures/telecom/index.md'
+        - Digital Messaging Channels: 'reference_architectures/telecom/digital-messaging.md'
+        - Two-Way SMS for Customer Service: 'reference_architectures/telecom/two-way-sms.md'
+        - Deploying 5G Core: 'reference_architectures/telecom/deploying-5g-core.md'
+  - Tools:
+    # - AWS Builder Platform: 'tools/abp.md'
+   # - AWS Quick Starts:
+    #  - Overview: 'tools/quickstart/index.md'
+      - TaskCat: 'tools/taskcat.md'
+  - Enablement:
+    - Workshops: 'enablement/workshops.md'
+  - Glossary: 'glossary.md'
+  - Questions? : 'questions.md' 
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+plugins:
+  - search
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
+use_directory_urls: false
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/hint.min.css
+extra:
+  analytics:
+    provider: custom
+    property: aws-samples
+
+  # #c26666 - dark purple, 663772 - purple, 83A2C7 - blue
+  # Dark blue: #23303e
+  # Light purple: #553364
+  # Dark purple: #202133

@@ -1,0 +1,3 @@
+These playbooks are created to be used as templates only. They should be customized by administrators working with AWS to suit their particular needs, risks, available tools and work processes. These guides are not official AWS documentation and are provided as-is to customers using AWS products and who are looking to improve their incident response capability.
+
+Click [here](https://github.com/aws-samples/aws-incident-response-playbooks) to access the library and start designing your solution.

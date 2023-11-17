@@ -1,0 +1,13 @@
+/* PlatformFrontEnd-112: Override settings in upstream theme.css that prevent line wrapping */
+#body a.highlight {
+  display: inline !important;
+  line-height: 1.1 !important;
+}
+
+#body a.highlight:after {
+  content: none !important;
+  display: inline !important;
+  height: none !important;
+  width: none !important;
+  transition: none !important;
+}

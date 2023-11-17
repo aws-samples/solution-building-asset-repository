@@ -1,0 +1,28 @@
+{{- $assetBusting := not .Site.Params.disableAssetsBusting }}
+{{/* Custom styling */}}
+{{ with resources.Get "css/asciidoctor.css" | }}
+<link
+  href="{{- .RelPermalink -}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"
+  rel="stylesheet"
+>
+{{ end }}
+{{ with resources.Get "css/aws-ia.css" | }}
+<link
+  href="{{- .RelPermalink -}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"
+  rel="stylesheet"
+>
+{{ end }}
+{{ with resources.Get "css/style.css" | }}
+<link
+  href="{{- .RelPermalink -}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"
+  rel="stylesheet"
+>
+{{ end }}
+{{- if (ne .Site.Params.enableLinkUnderlineAnimation true) }}
+{{ with resources.Get "css/link-override.css" | }}
+<link
+  href="{{- .RelPermalink -}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"
+  rel="stylesheet"
+>
+{{ end }}
+{{ end }}

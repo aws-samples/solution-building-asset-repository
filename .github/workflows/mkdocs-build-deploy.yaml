@@ -1,0 +1,45 @@
+name: MkDocs Build & Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install MkDocs
+      run: pip install mkdocs-material
+
+    - name: Install GLightbox plugin
+      run: pip install mkdocs-glightbox
+    
+    - name: Run git pull
+      run: git pull
+
+    - name: MkDocs Build
+      run: mkdocs build
+
+    - name: MkDocs Deploy
+      run: mkdocs gh-deploy
+
+    - name: Update AWS CLI
+      run: |
+        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+        unzip awscliv2.zip
+        sudo ./aws/install --bin-dir /usr/local/bin --update
+
+    - name: Set up AWS CLI
+      run: |
+        aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws configure set default.region us-east-1
+
+    - name: Deploy to S3
+      run: |
+        aws s3 sync --delete ./site s3://pstt-psf-web

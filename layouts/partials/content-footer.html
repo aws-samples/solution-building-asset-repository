@@ -1,0 +1,9 @@
+{{- with .Params.LastModifierDisplayName }}
+              <i class='fas fa-user'></i> {{ with $.Params.LastModifierEmail }}<a href="mailto:{{ . }}">{{ end }}{{ . }}{{ with $.Params.LastModifierEmail }}</a>{{ end }}
+  {{- with $.Date }}
+              <i class='fas fa-calendar'></i> {{ . | time.Format ":date_medium" }}
+  {{- end }}
+{{- end }}
+{{/* Display tags at the bottom of the article */}}
+{{/* https://github.com/McShelby/hugo-theme-relearn/issues/513 */}}
+{{- partial "tags.html" . }}
