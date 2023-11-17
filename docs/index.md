@@ -6,13 +6,13 @@ Learn more about Solution Building Enablement (SBE) and the phases of SBE soluti
 ## Solution Building Enablement
 [Solution Building Enablement](https://partnercentral.awspartner.com/partnercentral2/s/guides) is designed to help all AWS Partners build and deliver solutions that address both current and future business outcome needs for customers. It simplifies and expedites delivery of industry-focused solutions on AWS as we continue to see a shift toward business outcome solutions driven by line of business buyers, with customers more likely to purchase solutions with business outcomes that impacts their top-line.
 
-![SBE](/resources/images/SBE-homepage.png)
+![SBE](resources/images/SBE-homepage.png)
 
 Our guidance is designed to help accelerate your solution building on AWS, starting with solution innovation and funding options, build assets that support discovery, design, build, and validation, all the way to publishing, go-to-market, and solution lifecycle management. This includes custom resources, such as templates and workshops, to help you document and operationalize the guidance that applies to you as part of your own organization’s solution building on AWS.
 
 Solution Building Enablement is made up of four phases of solution development. These include Ideation, Design & Build, GTM & Sales, and Solution Lifecycle Management:
 
-![SBE](/resources/images/four-hubs.png)
+![SBE](resources/images/four-hubs.png)
 
 The Solution Building Asset Repository supports the Design & Build phase by providing technical resources to minimize effort and time spent design and building a solution. The Design & Build phase includes Design, Build, Validation, and Publishing.
 
