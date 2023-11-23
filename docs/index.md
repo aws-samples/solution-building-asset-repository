@@ -1,5 +1,5 @@
 # Solution Building Asset Repository
-Welcome to the Solution Building Asset Repository! The Solution Building Asset Repository is part of the Solution Building Enablement for AWS Partners and provides a curated collection of technical resources to support solution building on AWS. This includes general and industry-specific assets, accelerators, blueprints, best practices, and reference architectures to guide and accelerate solution build and delivery. [Learn more about the available asset categories here.](glossary.md).
+Welcome to the Solution Building Asset Repository! The Solution Building Asset Repository is part of the Solution Building Enablement for AWS Partners and provides a curated collection of technical resources to support solution building on AWS. This includes general and industry-specific assets, accelerators, blueprints, best practices, and reference architectures to guide and accelerate solution build and delivery. [Learn more about the available asset categories here](glossary.md).
 
 Learn more about Solution Building Enablement (SBE) and the phases of Solution Building Enablement solution development below.
 
